@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    background-color: rgb(219, 206, 231);
+    min-height: 100vh;
+    border:10px solid rgb(26, 26, 142) ;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+}
+img{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+div.name{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    
+}
+div h1{
+    font-size: 40px;
+}
+div h4{
+text-align  : end;
+}
+.about{
+    margin:auto;
+    margin-top: 80px;
+    width: 900px;
+}
+section  h2{
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+}
+section p{
+
+text-align: justify;
+}
+.bio{
+    width: 900px;
+    margin: 30px auto;
+}
+.bio h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.bio ul li{
+    line-height: 25px;
+}
